@@ -1,0 +1,103 @@
+h2{
+	font-family: verdana;
+    font-size: 18px;
+	font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+	
+    margin: 0px auto;
+    padding-bottom: 20px; 
+}
+
+body{
+    margin: 0px;
+    background-image: url(imej/background1.png);
+    background-size: cover;
+      
+}
+
+div {
+	text-align: center; 
+	margin: 0px auto;
+    padding-top: 20px;
+}
+
+div.menu{
+    
+    height:85px;
+    background-color: #5f6466;
+    
+   
+    
+}
+
+div.murid{
+    width: 420px;
+
+    /* position:absolute;
+    left: 50%;
+    transform: translateX(-50%); */
+}
+
+div.hakim{  
+    width: 560px;
+
+}
+
+div.urusetia{ 
+    width: 850px;
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+ul li {
+    display: block;
+    float: left;
+}
+
+li ul {
+    display: none;
+}
+
+ul li a {
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	color: #5f6466;
+	
+	width: 120px;
+	padding: 10px;
+	border: none;
+	margin: 0px;
+    background-color: #d2d4d5;
+    
+	display: block;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: white;
+    /* background-color: tan; */
+}
+
+li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+li:hover li {
+    float: none;
+}
+
+li:hover a {
+	color: white;
+    /* background-color: saddlebrown; */
+
+}

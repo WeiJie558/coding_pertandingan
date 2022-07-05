@@ -1,0 +1,12 @@
+span.btn {
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+div.buttons {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
